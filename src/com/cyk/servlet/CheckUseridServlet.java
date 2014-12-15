@@ -35,7 +35,7 @@ public class CheckUseridServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		boolean flag = false;
-		//git test!!1
+		//git test!!
 		response.setContentType("text/html");
 		String userid = request.getParameter("userid");
 		DAOFactory factory = new DAOFactory();
